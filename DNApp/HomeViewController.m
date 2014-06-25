@@ -1,18 +1,20 @@
 //
-//  ViewController.m
+//  HomeViewController.m
 //  DNApp
 //
 //  Created by Smitha Alampur on 6/21/14.
 //  Copyright (c) 2014 Smitha Alampur. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "HomeViewController.h"
 
-@interface ViewController ()
+@interface HomeViewController ()
 
 @end
 
-@implementation ViewController
+@implementation HomeViewController
+
+
 
 - (void)viewDidLoad
 {
@@ -28,8 +30,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)unwindFromView:(UIStoryboardSegue *)segue {}
+
 -(UIStatusBarStyle)preferredStatusBarStyle {
     return UIStatusBarStyleLightContent;
 }
+
 
 @end

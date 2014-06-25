@@ -22,6 +22,7 @@
 		B359B0191955C4A0003DD30F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B359AFF81955C4A0003DD30F /* UIKit.framework */; };
 		B359B0211955C4A0003DD30F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B359B01F1955C4A0003DD30F /* InfoPlist.strings */; };
 		B359B0231955C4A0003DD30F /* DNAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B359B0221955C4A0003DD30F /* DNAppTests.m */; };
+		B359B0311955CF8D003DD30F /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B359B0301955CF8D003DD30F /* HomeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		B359B01E1955C4A0003DD30F /* DNAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DNAppTests-Info.plist"; sourceTree = "<group>"; };
 		B359B0201955C4A0003DD30F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B359B0221955C4A0003DD30F /* DNAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DNAppTests.m; sourceTree = "<group>"; };
+		B359B02F1955CF8D003DD30F /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		B359B0301955CF8D003DD30F /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				B359B0031955C4A0003DD30F /* AppDelegate.h */,
 				B359B0041955C4A0003DD30F /* AppDelegate.m */,
 				B359B0061955C4A0003DD30F /* Main_iPhone.storyboard */,
+				B359B02F1955CF8D003DD30F /* HomeViewController.h */,
+				B359B0301955CF8D003DD30F /* HomeViewController.m */,
 				B359B0091955C4A0003DD30F /* Main_iPad.storyboard */,
 				B359B00C1955C4A0003DD30F /* ViewController.h */,
 				B359B00D1955C4A0003DD30F /* ViewController.m */,
@@ -256,6 +261,7 @@
 				B359B00E1955C4A0003DD30F /* ViewController.m in Sources */,
 				B359B0051955C4A0003DD30F /* AppDelegate.m in Sources */,
 				B359B0011955C4A0003DD30F /* main.m in Sources */,
+				B359B0311955CF8D003DD30F /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
